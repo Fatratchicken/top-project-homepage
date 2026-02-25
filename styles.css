@@ -6,6 +6,20 @@
     font-size: 16px;
 }
 
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fonts/Roboto/plain.ttf');
+}
+
+@font-face {
+    font-family: 'Playfair';
+    src: url('./assets/fonts/Playfair_Display/plain.ttf');
+}
+
+body{
+    font-family: 'Playfair';
+}
+
 header{
     display: flex;
     align-items: center;
